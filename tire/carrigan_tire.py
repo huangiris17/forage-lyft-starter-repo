@@ -8,7 +8,6 @@ class CarriganTire(Tire):
 
     def needs_service(self):
         for x in self.tire_status:
-            if x < 0.9:
-                return False
-            else:
+            if x >= 0.9:
                 return True
+        return False
