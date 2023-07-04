@@ -3,6 +3,8 @@ from engine.sternman_engine import SternmanEngine
 from engine.willoughby_engine import WilloughbyEngine
 from battery.nubbin_battery import NubbinBattery
 from battery.spindler_battery import SpindlerBattery
+from tire.carrigan_tire import CarriganTire
+from tire.octoprime_engine import OctoprimeTire
 from car import Car
 
 
